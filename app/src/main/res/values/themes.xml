@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.StatsApp" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">#FFFBFE</item>
+    </style>
+
+    <style name="Theme.StatsApp.Alarm" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">#14181F</item>
+    </style>
+</resources>

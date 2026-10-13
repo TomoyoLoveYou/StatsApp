@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  通知 / 全屏闹钟 / 备份模块文案（英文默认）。
+  中文见 values-zh-rCN/strings_notify.xml。
+  前缀：通知 notif_，全屏闹钟 alarm_，备份 backup_。
+-->
+<resources>
+    <!-- ===== 通知渠道 ===== -->
+    <string name="notif_channel_silent_name">Silent reminders</string>
+    <string name="notif_channel_silent_desc">Shows in the notification shade only, with no sound or banner (the sound comes from the Notify level)</string>
+    <string name="notif_channel_notify_name">Notify reminders</string>
+    <string name="notif_channel_notify_desc">A sound plus an entry in the notification shade, no heads-up banner</string>
+    <string name="notif_channel_banner_name">Banner reminders</string>
+    <string name="notif_channel_banner_desc">A sound plus a banner at the top of the screen (like a message bubble)</string>
+    <string name="notif_channel_alarm_name">Alarm reminders</string>
+    <string name="notif_channel_alarm_desc">Full screen with ringtone and vibration, visible on the lock screen</string>
+
+    <!-- ===== 任务提醒通知 ===== -->
+    <string name="notif_reminder_text">Time to check in · Earn +%1$d pts when done</string>
+
+    <!-- ===== 测试通知 ===== -->
+    <string name="notif_test_title">Test reminder (%1$s level)</string>
+    <string name="notif_test_text">This is a test notification, confirming this level works properly</string>
+
+    <!-- ===== 全屏闹钟界面 ===== -->
+    <string name="alarm_test_title">Test alarm</string>
+    <string name="alarm_title">Time to check in</string>
+    <string name="alarm_default_task">Task reminder</string>
+    <string name="alarm_points">Earn +%1$d pts when done</string>
+    <string name="alarm_complete">Mark done</string>
+    <string name="alarm_snooze">Snooze 10 min</string>
+    <string name="alarm_dismiss">Close</string>
+
+    <!-- ===== 备份错误 / 状态消息 ===== -->
+    <string name="backup_error_write">Cannot write to the selected location</string>
+    <string name="backup_error_read">Cannot read the selected file</string>
+    <string name="backup_error_no_snapshot">No recent export found. Please export a backup first.</string>
+    <string name="backup_error_unsupported_version">Unsupported backup file version (v%1$d)</string>
+</resources>

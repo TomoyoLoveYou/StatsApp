@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 统计页文案（简体中文）。英文默认见 values/strings_stats.xml -->
+<resources>
+    <!-- 卡片标题 / 副标题 -->
+    <string name="stats_trend_title">积分趋势</string>
+    <string name="stats_share_title">积分构成</string>
+    <string name="stats_share_subtitle">本周期按分类</string>
+    <string name="stats_rank_title">任务排行</string>
+    <string name="stats_rank_subtitle">本周期打卡次数 Top 5</string>
+    <string name="stats_heat_title">活跃度</string>
+    <string name="stats_heat_subtitle_current">最近 15 周 · 颜色 = 当日积分最高分类</string>
+    <string name="stats_heat_subtitle_past">15 周 · 截至 %1$s</string>
+
+    <!-- 无障碍描述 -->
+    <string name="stats_cd_prev_period">上一期</string>
+    <string name="stats_cd_next_period">下一期</string>
+    <string name="stats_cd_pick_date">选择日期</string>
+    <string name="stats_cd_prev_year">上一年</string>
+    <string name="stats_cd_next_year">下一年</string>
+
+    <!-- 周期选择器 -->
+    <string name="stats_picker_week">选择周</string>
+    <string name="stats_this_week_badge">本周</string>
+    <string name="stats_picker_month">选择月份</string>
+    <string name="stats_picker_year">选择年份</string>
+    <string name="stats_year_number">%1$d年</string>
+
+    <!-- 概览卡 -->
+    <string name="stats_metric_checkins">打卡</string>
+    <string name="stats_metric_streak">连续打卡</string>
+    <plurals name="stats_value_times">
+        <item quantity="other">%1$d 次</item>
+    </plurals>
+    <plurals name="stats_value_days">
+        <item quantity="other">%1$d 天</item>
+    </plurals>
+    <string name="stats_value_points">%1$d 分</string>
+    <string name="stats_value_points_positive">+%1$d 分</string>
+    <string name="stats_delta_up">较上期 ↑ +%1$d</string>
+    <string name="stats_delta_down">较上期 ↓ %1$d</string>
+    <string name="stats_delta_same">与上期持平</string>
+    <string name="stats_center_points">积分</string>
+
+    <!-- 空态 -->
+    <string name="stats_empty_period_points">本周期还没有积分</string>
+    <string name="stats_empty_period_checkins">本周期还没有打卡记录</string>
+    <string name="stats_empty_trend">本周期还没有积分记录</string>
+    <string name="stats_empty_heat">暂无打卡记录</string>
+    <string name="stats_heat_legend_none">无</string>
+
+    <!-- 趋势图数值单位 -->
+    <string name="stats_compact_large">%1$s万</string>
+
+    <!-- 分类回退名 -->
+    <string name="stats_uncategorized">未分类</string>
+    <string name="stats_deleted_category">已删除分类</string>
+</resources>

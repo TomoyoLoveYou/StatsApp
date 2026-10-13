@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 分类页 / 历史任务页 / 类别编辑对话框文案（英文默认） -->
+<resources>
+    <!-- ===== 积分类别页 ===== -->
+    <string name="cat_title">Point categories</string>
+    <string name="cat_back">Back</string>
+    <string name="cat_new">New category</string>
+    <string name="cat_hint">Categories group your tasks and color the stats charts; each task belongs to one category.</string>
+    <string name="cat_new_title">New point category</string>
+    <string name="cat_edit_title">Edit point category</string>
+    <string name="cat_delete_title">Delete category</string>
+    <string name="cat_delete_in_use">%1$d tasks are using “%2$s”. After deleting, they will become uncategorized. Delete anyway?</string>
+    <string name="cat_delete_confirm">Delete “%1$s”?</string>
+    <string name="cat_task_count">%1$d tasks</string>
+    <string name="cat_unused">Not used</string>
+
+    <!-- ===== 历史任务页 ===== -->
+    <string name="history_title">Task history</string>
+    <string name="history_back">Back</string>
+    <string name="history_hint">Completed one-time tasks and deleted tasks are kept here; past check-ins and points always stay in Stats.</string>
+    <string name="history_empty_title">No history yet</string>
+    <string name="history_empty_desc">Completed one-time tasks and deleted tasks will show up here</string>
+    <string name="history_section_completed">Completed one-time tasks (%1$d)</string>
+    <string name="history_section_archived">Deleted tasks (%1$d)</string>
+    <string name="history_completed">Completed</string>
+    <string name="history_points_suffix"> · +%1$d pts</string>
+    <string name="history_undo_complete">Undo</string>
+    <string name="history_archived_at">Deleted on %1$s</string>
+    <string name="history_checkin_count"> · %1$d past check-ins</string>
+    <string name="history_restore_task">Restore</string>
+    <string name="history_msg_undo">Undid “%1$s” and moved it back to the task list</string>
+    <string name="history_msg_restore">Restored “%1$s”. You can find it in the task list.</string>
+
+    <!-- ===== 类别编辑对话框 ===== -->
+    <string name="dlg_category_name">Category name</string>
+    <string name="dlg_category_name_hint">e.g. Study, Exercise</string>
+    <string name="dlg_color">Color</string>
+    <string name="dlg_color_used_hint">Colors already used by other categories are hidden</string>
+    <string name="dlg_color_exhausted">All candidate colors are taken. Edit another category to free one up.</string>
+</resources>

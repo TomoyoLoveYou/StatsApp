@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ===== 任务列表（task_） ===== -->
+    <string name="task_undo">Undo</string>
+    <string name="task_checkin">Check in</string>
+    <string name="task_ring_content_desc">%1$s: %2$s</string>
+    <string name="task_new">New task</string>
+    <string name="task_enable">Enable task</string>
+    <string name="task_disable">Disable task</string>
+    <string name="task_undo_last">Undo last check-in</string>
+    <string name="task_backfill">Backfill</string>
+    <string name="task_delete">Delete task</string>
+    <string name="task_delete_confirm">Delete “%1$s”?\nYou can find it in Settings → Task history; past check-ins and points stay in Stats.</string>
+    <string name="task_done_moved">“%1$s” is done — moved to Settings → Task history</string>
+    <string name="task_section_header">%1$s tasks</string>
+    <string name="task_empty_title">No tasks yet</string>
+    <string name="task_empty_hint">Tap + at the bottom-right to create your first task</string>
+    <string name="task_points_per_time">+%1$d/time</string>
+    <string name="task_backfill_title">Backfill · %1$s</string>
+    <string name="task_backfill_hint">Pick a date to backfill; dates already completed in this period aren\'t selectable</string>
+
+    <!-- 任务卡片副标题 -->
+    <string name="task_sub_standing_counted">Standing · Today: %1$d</string>
+    <string name="task_sub_standing">Standing · Log anytime</string>
+    <string name="task_sub_onetime_done">One-time · Done</string>
+    <string name="task_sub_onetime_remind">One-time · Reminds %1$s (%2$s)</string>
+    <string name="task_sub_period_progress">%1$s %2$d/%3$d</string>
+    <string name="task_sub_auto_complete">Auto-complete</string>
+    <string name="task_sub_remind">Remind %1$s (%2$s)</string>
+
+    <!-- ===== 任务编辑页（editor_） ===== -->
+    <string name="editor_title_new">New task</string>
+    <string name="editor_title_edit">Edit task</string>
+    <string name="editor_back">Back</string>
+    <string name="editor_new_category">New point category</string>
+    <string name="editor_new_category_chip">+ New</string>
+
+    <string name="editor_section_basic">Basic info</string>
+    <string name="editor_field_name">Task name</string>
+    <string name="editor_field_name_hint">e.g. Read for 30 minutes</string>
+    <string name="editor_name_error">Please enter a task name</string>
+    <string name="editor_field_note">Note (optional)</string>
+
+    <string name="editor_section_period">Period &amp; target</string>
+    <string name="editor_hint_onetime">One-time task: ends after one completion, no repeats; you can undo anytime</string>
+    <string name="editor_hint_standing">Standing task: any number of times, no reminders; tap the ring anytime to log one</string>
+    <string name="editor_field_target">Target count</string>
+    <string name="editor_target_summary_once">%1$s · complete once</string>
+    <string name="editor_target_summary_count">%1$s · complete %2$d times total (counting)</string>
+
+    <string name="editor_section_remind">Reminder</string>
+    <string name="editor_section_auto">Auto-complete</string>
+    <string name="editor_field_remind_time">Reminder time</string>
+    <string name="editor_field_auto_time">Auto check-in time</string>
+    <string name="editor_hint_onetime_remind">Reminds once a day until done, then stops</string>
+    <string name="editor_hint_auto">At the set time, if this period isn\'t done yet, it silently auto-completes (no alerts)</string>
+    <string name="editor_field_level">Reminder level</string>
+    <string name="editor_field_vibrate">Extra vibration</string>
+    <string name="editor_vibrate_hint">Vibrates briefly on reminder (off by default)</string>
+
+    <string name="editor_section_points">Points</string>
+    <string name="editor_field_category">Point category</string>
+    <string name="editor_field_points">Points per completion</string>
+    <string name="editor_points_hint">Each check-in adds this many points</string>
+
+    <string name="editor_section_misc">Other</string>
+    <string name="editor_field_enabled">Enable task</string>
+    <string name="editor_enabled_hint">When off, no reminders and shown in gray in the list</string>
+
+    <!-- 提醒级别说明 -->
+    <string name="editor_level_hint_silent">Shows in the notification shade only, no sound or banner</string>
+    <string name="editor_level_hint_notify">Plays a sound, no banner</string>
+    <string name="editor_level_hint_banner">Plays a sound and shows a banner at the top</string>
+    <string name="editor_level_hint_alarm">Full-screen alert, ringtone and vibration (visible on lock screen)</string>
+
+    <!-- 周期日期选择 -->
+    <string name="editor_field_weekdays">Active days (none = every day)</string>
+    <string name="editor_weekday_mon">Mon</string>
+    <string name="editor_weekday_tue">Tue</string>
+    <string name="editor_weekday_wed">Wed</string>
+    <string name="editor_weekday_thu">Thu</string>
+    <string name="editor_weekday_fri">Fri</string>
+    <string name="editor_weekday_sat">Sat</string>
+    <string name="editor_weekday_sun">Sun</string>
+    <string name="editor_field_month_day">Day of month (1-31)</string>
+    <string name="editor_field_month">Month</string>
+    <string name="editor_field_day">Day</string>
+
+    <string name="editor_pick_time_title">Pick reminder time</string>
+</resources>

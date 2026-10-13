@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  默认语言 = 英文：当"跟随本机"且本机语言不是中文时，资源自动回退到本文件（英文）。
+  中文文案见 values-zh-rCN/strings.xml。
+-->
+<resources>
+    <string name="app_name">Stats</string>
+
+    <!-- ===== 通用 ===== -->
+    <string name="common_cancel">Cancel</string>
+    <string name="common_confirm">OK</string>
+    <string name="common_got_it">Got it</string>
+    <string name="common_save">Save</string>
+    <string name="common_delete">Delete</string>
+    <string name="common_edit">Edit</string>
+    <string name="common_restore">Restore</string>
+    <string name="common_pick_file">Choose file</string>
+    <string name="common_unknown_error">Unknown error</string>
+
+    <!-- ===== 底部导航 ===== -->
+    <string name="main_tab_tasks">Tasks</string>
+    <string name="main_tab_stats">Stats</string>
+    <string name="main_tab_settings">Settings</string>
+
+    <!-- ===== 设置页 ===== -->
+    <string name="settings_title">Settings</string>
+
+    <string name="settings_section_prefs">Preferences</string>
+    <string name="settings_day_start">Day boundary</string>
+    <string name="settings_day_start_desc">Check-ins before this hour count toward the previous day (night-owl friendly)</string>
+    <string name="settings_theme">Appearance</string>
+    <string name="settings_theme_desc">Follow system, or pin light / dark</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_language_desc">Display language of the app</string>
+    <string name="settings_language_system">Follow system</string>
+    <string name="settings_language_zh">Chinese</string>
+    <string name="settings_language_en">English</string>
+
+    <string name="settings_section_permissions">Reminder permissions</string>
+    <string name="settings_section_test">Test reminders</string>
+    <string name="settings_test_hint">Tap a button to instantly send a test reminder at that level</string>
+
+    <string name="settings_section_tasks">Tasks</string>
+    <string name="settings_history">Task history</string>
+    <string name="settings_history_desc">Deleted or completed-and-hidden tasks, recoverable anytime</string>
+
+    <string name="settings_section_points">Points</string>
+    <string name="settings_categories">Point categories</string>
+    <string name="settings_categories_desc">Create and edit categories and their colors</string>
+    <string name="settings_manage">Manage</string>
+
+    <string name="settings_section_data">Data</string>
+    <string name="settings_export">Export backup</string>
+    <string name="settings_export_desc">Export all tasks, check-ins and point records to a backup file</string>
+    <string name="settings_quick_restore">Quick restore</string>
+    <string name="settings_quick_restore_desc">Restore the latest export without picking a file</string>
+    <string name="settings_import">Import from file</string>
+    <string name="settings_import_desc">Restore from a backup file (overwrites current data)</string>
+    <string name="settings_import_note">A snapshot of the current data is always kept in-app before importing, to prevent mistakes.</string>
+
+    <string name="settings_section_about">About</string>
+    <string name="settings_about_version">Stats v%1$s (debug)</string>
+
+    <!-- 权限行 -->
+    <string name="settings_perm_notify">Notifications</string>
+    <string name="settings_perm_exact_alarm">Exact alarms</string>
+    <string name="settings_perm_fullscreen">Full-screen notifications (alarm level)</string>
+    <string name="settings_perm_battery">Battery optimization whitelist</string>
+    <string name="settings_perm_autostart">Auto-start (set in iManager on vivo)</string>
+
+    <string name="settings_status_on">On</string>
+    <string name="settings_status_off">Off</string>
+    <string name="settings_status_allowed">Allowed</string>
+    <string name="settings_status_disallowed">Not allowed</string>
+    <string name="settings_status_exempt">Exempt</string>
+    <string name="settings_status_restricted">Restricted</string>
+    <string name="settings_status_check">Check</string>
+
+    <!-- 对话框 -->
+    <string name="settings_op_result">Result</string>
+    <string name="settings_quick_restore_confirm">This will overwrite all current data with the latest exported backup.\n(A snapshot of the current data is kept before importing.)\n\nContinue?</string>
+    <string name="settings_import_confirm">Importing will overwrite all current tasks, check-ins and point records.\n(A snapshot of the current data is kept before importing.)\n\nContinue?</string>
+
+    <!-- 备份操作结果 -->
+    <string name="backup_export_success">Export succeeded: %1$d tasks, %2$d categories, %3$d check-ins, %4$d point records</string>
+    <string name="backup_export_failed">Export failed: %1$s</string>
+    <string name="backup_snapshot_success">Restored from latest export: %1$d tasks, %2$d categories, %3$d check-ins, %4$d point records</string>
+    <string name="backup_snapshot_failed">Quick restore failed: %1$s</string>
+    <string name="backup_import_success">Restore succeeded: %1$d tasks, %2$d categories, %3$d check-ins, %4$d point records</string>
+    <string name="backup_import_failed">Import failed: %1$s</string>
+
+    <!-- ===== 格式化 ===== -->
+    <string name="fmt_day_start_midnight">12 AM (natural day)</string>
+    <string name="fmt_day_start_hour">%1$d AM</string>
+    <string name="fmt_theme_system">Follow system</string>
+    <string name="fmt_theme_light">Light</string>
+    <string name="fmt_theme_dark">Dark</string>
+
+    <!-- 任务周期类型 -->
+    <string name="fmt_period_daily">Daily</string>
+    <string name="fmt_period_weekly">Weekly</string>
+    <string name="fmt_period_monthly">Monthly</string>
+    <string name="fmt_period_yearly">Yearly</string>
+    <string name="fmt_period_once">One-time</string>
+    <string name="fmt_period_standing">Standing</string>
+
+    <string name="fmt_every_daily">Every day</string>
+    <string name="fmt_every_weekly">Every week</string>
+    <string name="fmt_every_monthly">Every month</string>
+    <string name="fmt_every_yearly">Every year</string>
+
+    <string name="fmt_period_today">Today</string>
+    <string name="fmt_period_this_week">This week</string>
+    <string name="fmt_period_this_month">This month</string>
+    <string name="fmt_period_this_year">This year</string>
+
+    <!-- 提醒级别 / 到点行为 -->
+    <string name="fmt_level_silent">Silent</string>
+    <string name="fmt_level_notify">Notify</string>
+    <string name="fmt_level_banner">Banner</string>
+    <string name="fmt_level_alarm">Alarm</string>
+    <string name="fmt_action_remind">Remind when due</string>
+    <string name="fmt_action_auto_complete">Auto-complete when due</string>
+
+    <!-- 统计范围 -->
+    <string name="fmt_range_day">Day</string>
+    <string name="fmt_range_week">Week</string>
+    <string name="fmt_range_month">Month</string>
+    <string name="fmt_range_year">Year</string>
+
+    <!-- 概览卡标题 -->
+    <string name="fmt_score_today">Points today</string>
+    <string name="fmt_score_that_day">Points that day</string>
+    <string name="fmt_score_this_week">Points this week</string>
+    <string name="fmt_score_that_week">Points that week</string>
+    <string name="fmt_score_this_month">Points this month</string>
+    <string name="fmt_score_that_month">Points that month</string>
+    <string name="fmt_score_this_year">Points this year</string>
+    <string name="fmt_score_that_year">Points that year</string>
+
+    <!-- 趋势副标题 -->
+    <string name="fmt_trend_last_days">Last 7 days</string>
+    <string name="fmt_trend_last_weeks">Last 7 weeks</string>
+    <string name="fmt_trend_last_months">Last 7 months</string>
+    <string name="fmt_trend_last_years">Last 7 years</string>
+    <string name="fmt_until">Until %1$s</string>
+
+    <!-- 周期标签后缀（用 \u0020 保留前导空格，XML 会裁剪首尾空白） -->
+    <string name="fmt_suffix_today">\u0020(today)</string>
+    <string name="fmt_suffix_yesterday">\u0020(yesterday)</string>
+    <string name="fmt_suffix_this_week">\u0020(this week)</string>
+    <string name="fmt_suffix_this_month">\u0020(this month)</string>
+    <string name="fmt_suffix_this_year">\u0020(this year)</string>
+    <string name="fmt_week_with_year">%1$d · %2$s</string>
+
+    <!-- 补卡日期 -->
+    <string name="fmt_yesterday">Yesterday</string>
+    <string name="fmt_two_days_ago">2 days ago</string>
+</resources>

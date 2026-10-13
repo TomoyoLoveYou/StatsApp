@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  通知 / 全屏闹钟 / 备份模块文案（简体中文）。
+  英文默认见 values/strings_notify.xml。
+  前缀：通知 notif_，全屏闹钟 alarm_，备份 backup_。
+-->
+<resources>
+    <!-- ===== 通知渠道 ===== -->
+    <string name="notif_channel_silent_name">静默提醒</string>
+    <string name="notif_channel_silent_desc">只在通知栏显示，无声音、无横幅（提示音由“通知”级别提供）</string>
+    <string name="notif_channel_notify_name">通知提醒</string>
+    <string name="notif_channel_notify_desc">提示音 + 通知栏，不弹横幅</string>
+    <string name="notif_channel_banner_name">横幅提醒</string>
+    <string name="notif_channel_banner_desc">提示音 + 屏幕顶部弹出横幅（类似消息气泡）</string>
+    <string name="notif_channel_alarm_name">闹钟提醒</string>
+    <string name="notif_channel_alarm_desc">全屏 + 铃声 + 震动，锁屏可见</string>
+
+    <!-- ===== 任务提醒通知 ===== -->
+    <string name="notif_reminder_text">该打卡啦 · 完成可得 +%1$d 分</string>
+
+    <!-- ===== 测试通知 ===== -->
+    <string name="notif_test_title">测试提醒（%1$s级）</string>
+    <string name="notif_test_text">这是一条测试通知，说明该级别工作正常</string>
+
+    <!-- ===== 全屏闹钟界面 ===== -->
+    <string name="alarm_test_title">测试闹钟</string>
+    <string name="alarm_title">该打卡啦</string>
+    <string name="alarm_default_task">任务提醒</string>
+    <string name="alarm_points">完成可得 +%1$d 分</string>
+    <string name="alarm_complete">完成打卡</string>
+    <string name="alarm_snooze">稍后 10 分钟</string>
+    <string name="alarm_dismiss">关闭</string>
+
+    <!-- ===== 备份错误 / 状态消息 ===== -->
+    <string name="backup_error_write">无法写入所选位置</string>
+    <string name="backup_error_read">无法读取所选文件</string>
+    <string name="backup_error_no_snapshot">没有找到最近导出记录，请先导出一次备份</string>
+    <string name="backup_error_unsupported_version">备份文件版本不支持（v%1$d）</string>
+</resources>

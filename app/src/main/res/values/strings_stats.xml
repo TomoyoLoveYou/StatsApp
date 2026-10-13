@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 统计页文案（英文默认）。中文见 values-zh-rCN/strings_stats.xml -->
+<resources>
+    <!-- 卡片标题 / 副标题 -->
+    <string name="stats_trend_title">Points trend</string>
+    <string name="stats_share_title">Points breakdown</string>
+    <string name="stats_share_subtitle">By category this period</string>
+    <string name="stats_rank_title">Task ranking</string>
+    <string name="stats_rank_subtitle">Top 5 tasks this period</string>
+    <string name="stats_heat_title">Activity</string>
+    <string name="stats_heat_subtitle_current">Last 15 weeks · Color = top category of the day</string>
+    <string name="stats_heat_subtitle_past">15 weeks · Until %1$s</string>
+
+    <!-- 无障碍描述 -->
+    <string name="stats_cd_prev_period">Previous period</string>
+    <string name="stats_cd_next_period">Next period</string>
+    <string name="stats_cd_pick_date">Pick a date</string>
+    <string name="stats_cd_prev_year">Previous year</string>
+    <string name="stats_cd_next_year">Next year</string>
+
+    <!-- 周期选择器 -->
+    <string name="stats_picker_week">Pick a week</string>
+    <string name="stats_this_week_badge">This week</string>
+    <string name="stats_picker_month">Pick a month</string>
+    <string name="stats_picker_year">Pick a year</string>
+    <string name="stats_year_number">%1$d</string>
+
+    <!-- 概览卡 -->
+    <string name="stats_metric_checkins">Check-ins</string>
+    <string name="stats_metric_streak">Streak</string>
+    <plurals name="stats_value_times">
+        <item quantity="one">%1$d time</item>
+        <item quantity="other">%1$d times</item>
+    </plurals>
+    <plurals name="stats_value_days">
+        <item quantity="one">%1$d day</item>
+        <item quantity="other">%1$d days</item>
+    </plurals>
+    <string name="stats_value_points">%1$d pts</string>
+    <string name="stats_value_points_positive">+%1$d pts</string>
+    <string name="stats_delta_up">vs last period ↑ +%1$d</string>
+    <string name="stats_delta_down">vs last period ↓ %1$d</string>
+    <string name="stats_delta_same">Same as last period</string>
+    <string name="stats_center_points">Points</string>
+
+    <!-- 空态 -->
+    <string name="stats_empty_period_points">No points this period</string>
+    <string name="stats_empty_period_checkins">No check-ins this period</string>
+    <string name="stats_empty_trend">No point records this period</string>
+    <string name="stats_empty_heat">No check-ins yet</string>
+    <string name="stats_heat_legend_none">None</string>
+
+    <!-- 趋势图数值单位 -->
+    <string name="stats_compact_large">%1$sk</string>
+
+    <!-- 分类回退名 -->
+    <string name="stats_uncategorized">Uncategorized</string>
+    <string name="stats_deleted_category">Deleted category</string>
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ===== 任务列表（task_） ===== -->
+    <string name="task_undo">撤销</string>
+    <string name="task_checkin">打卡</string>
+    <string name="task_ring_content_desc">%1$s：%2$s</string>
+    <string name="task_new">新建任务</string>
+    <string name="task_enable">启用任务</string>
+    <string name="task_disable">停用任务</string>
+    <string name="task_undo_last">撤销最近一次打卡</string>
+    <string name="task_backfill">补卡</string>
+    <string name="task_delete">删除任务</string>
+    <string name="task_delete_confirm">确定删除「%1$s」吗？\n可在「设置 → 历史任务」中找回；历史打卡与积分保留在统计中。</string>
+    <string name="task_done_moved">「%1$s」已完成，已移至 设置 → 历史任务</string>
+    <string name="task_section_header">%1$s任务</string>
+    <string name="task_empty_title">还没有任务</string>
+    <string name="task_empty_hint">点右下角 + 新建第一个任务</string>
+    <string name="task_points_per_time">+%1$d/次</string>
+    <string name="task_backfill_title">补卡 · %1$s</string>
+    <string name="task_backfill_hint">选择要补的日期；该周期已完成的日期不可选</string>
+
+    <!-- 任务卡片副标题 -->
+    <string name="task_sub_standing_counted">常驻 · 今天已记 %1$d 次</string>
+    <string name="task_sub_standing">常驻 · 不限次数，随时可记录</string>
+    <string name="task_sub_onetime_done">单次 · 已完成</string>
+    <string name="task_sub_onetime_remind">单次 · 每天 %1$s %2$s提醒</string>
+    <string name="task_sub_period_progress">%1$s %2$d/%3$d 次</string>
+    <string name="task_sub_auto_complete">到点自动完成</string>
+    <string name="task_sub_remind">%1$s %2$s提醒</string>
+
+    <!-- ===== 任务编辑页（editor_） ===== -->
+    <string name="editor_title_new">新建任务</string>
+    <string name="editor_title_edit">编辑任务</string>
+    <string name="editor_back">返回</string>
+    <string name="editor_new_category">新建积分类别</string>
+    <string name="editor_new_category_chip">＋ 新建</string>
+
+    <string name="editor_section_basic">基本信息</string>
+    <string name="editor_field_name">任务名称</string>
+    <string name="editor_field_name_hint">例如：读书 30 分钟</string>
+    <string name="editor_name_error">请输入任务名称</string>
+    <string name="editor_field_note">备注（可选）</string>
+
+    <string name="editor_section_period">周期与目标</string>
+    <string name="editor_hint_onetime">单次任务：完成一次即结束，不会重复；可随时撤销</string>
+    <string name="editor_hint_standing">常驻任务：不限次数、不设提醒，随时点击圆环即可记录一次</string>
+    <string name="editor_field_target">目标次数</string>
+    <string name="editor_target_summary_once">%1$s 完成 1 次</string>
+    <string name="editor_target_summary_count">%1$s 累计完成 %2$d 次（计数型）</string>
+
+    <string name="editor_section_remind">提醒</string>
+    <string name="editor_section_auto">自动完成</string>
+    <string name="editor_field_remind_time">提醒时刻</string>
+    <string name="editor_field_auto_time">自动打卡时刻</string>
+    <string name="editor_hint_onetime_remind">未完成时每天提醒一次，完成后自动停止</string>
+    <string name="editor_hint_auto">到达设定时间后，若本期还未完成将静默自动打卡（不提醒、不打扰）</string>
+    <string name="editor_field_level">提醒级别</string>
+    <string name="editor_field_vibrate">附加震动</string>
+    <string name="editor_vibrate_hint">提醒时轻震动一下（默认关闭）</string>
+
+    <string name="editor_section_points">积分</string>
+    <string name="editor_field_category">积分类别</string>
+    <string name="editor_field_points">完成一次得分</string>
+    <string name="editor_points_hint">打卡后按此分值累计积分</string>
+
+    <string name="editor_section_misc">其他</string>
+    <string name="editor_field_enabled">启用任务</string>
+    <string name="editor_enabled_hint">关闭后不再提醒，列表中以灰色显示</string>
+
+    <!-- 提醒级别说明 -->
+    <string name="editor_level_hint_silent">只在通知栏显示，无声音、无横幅</string>
+    <string name="editor_level_hint_notify">有提示音，不弹横幅</string>
+    <string name="editor_level_hint_banner">有提示音，屏幕顶部弹出横幅</string>
+    <string name="editor_level_hint_alarm">全屏提醒 + 铃声 + 震动（锁屏也可见）</string>
+
+    <!-- 周期日期选择 -->
+    <string name="editor_field_weekdays">执行日（不选 = 每天）</string>
+    <string name="editor_weekday_mon">一</string>
+    <string name="editor_weekday_tue">二</string>
+    <string name="editor_weekday_wed">三</string>
+    <string name="editor_weekday_thu">四</string>
+    <string name="editor_weekday_fri">五</string>
+    <string name="editor_weekday_sat">六</string>
+    <string name="editor_weekday_sun">日</string>
+    <string name="editor_field_month_day">每月几号（1-31）</string>
+    <string name="editor_field_month">月</string>
+    <string name="editor_field_day">日</string>
+
+    <string name="editor_pick_time_title">选择提醒时刻</string>
+</resources>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">统计</string>
+
+    <!-- ===== 通用 ===== -->
+    <string name="common_cancel">取消</string>
+    <string name="common_confirm">确定</string>
+    <string name="common_got_it">好的</string>
+    <string name="common_save">保存</string>
+    <string name="common_delete">删除</string>
+    <string name="common_edit">编辑</string>
+    <string name="common_restore">恢复</string>
+    <string name="common_pick_file">选择文件</string>
+    <string name="common_unknown_error">未知错误</string>
+
+    <!-- ===== 底部导航 ===== -->
+    <string name="main_tab_tasks">任务</string>
+    <string name="main_tab_stats">统计</string>
+    <string name="main_tab_settings">设置</string>
+
+    <!-- ===== 设置页 ===== -->
+    <string name="settings_title">设置</string>
+
+    <string name="settings_section_prefs">偏好设置</string>
+    <string name="settings_day_start">日界线</string>
+    <string name="settings_day_start_desc">凌晨该点之前完成的打卡记入前一天（熬夜党友好）</string>
+    <string name="settings_theme">外观主题</string>
+    <string name="settings_theme_desc">跟随系统或固定浅色 / 深色</string>
+    <string name="settings_language">语言</string>
+    <string name="settings_language_desc">应用界面的显示语言</string>
+    <string name="settings_language_system">跟随本机</string>
+    <string name="settings_language_zh">中文</string>
+    <string name="settings_language_en">英文</string>
+
+    <string name="settings_section_permissions">提醒权限</string>
+    <string name="settings_section_test">测试提醒</string>
+    <string name="settings_test_hint">点击任一按钮立即发送一条对应级别的测试提醒</string>
+
+    <string name="settings_section_tasks">任务</string>
+    <string name="settings_history">历史任务</string>
+    <string name="settings_history_desc">已删除 / 已完成消失的任务，可随时找回</string>
+
+    <string name="settings_section_points">积分</string>
+    <string name="settings_categories">积分类别</string>
+    <string name="settings_categories_desc">新建、编辑类别与颜色</string>
+    <string name="settings_manage">管理</string>
+
+    <string name="settings_section_data">数据管理</string>
+    <string name="settings_export">导出备份</string>
+    <string name="settings_export_desc">将全部任务、打卡与积分记录导出为备份文件</string>
+    <string name="settings_quick_restore">快速恢复</string>
+    <string name="settings_quick_restore_desc">无需选择文件，直接恢复最近一次导出的数据</string>
+    <string name="settings_import">从文件导入</string>
+    <string name="settings_import_desc">从备份文件恢复（将覆盖当前数据）</string>
+    <string name="settings_import_note">导入前会自动在应用内留存一份当前数据快照，防止误操作。</string>
+
+    <string name="settings_section_about">关于</string>
+    <string name="settings_about_version">统计 v%1$s（调试版）</string>
+
+    <!-- 权限行 -->
+    <string name="settings_perm_notify">通知权限</string>
+    <string name="settings_perm_exact_alarm">精确闹钟</string>
+    <string name="settings_perm_fullscreen">全屏通知（闹钟级）</string>
+    <string name="settings_perm_battery">电池优化白名单</string>
+    <string name="settings_perm_autostart">自启动（vivo 手机需在 i管家 设置）</string>
+
+    <string name="settings_status_on">已开启</string>
+    <string name="settings_status_off">未开启</string>
+    <string name="settings_status_allowed">已允许</string>
+    <string name="settings_status_disallowed">未允许</string>
+    <string name="settings_status_exempt">已豁免</string>
+    <string name="settings_status_restricted">受限制</string>
+    <string name="settings_status_check">需确认</string>
+
+    <!-- 对话框 -->
+    <string name="settings_op_result">操作结果</string>
+    <string name="settings_quick_restore_confirm">将用最近一次导出的备份覆盖当前全部数据。\n（导入前会自动留存一份当前数据快照）\n\n确定继续吗？</string>
+    <string name="settings_import_confirm">导入将覆盖当前全部任务、打卡与积分记录。\n（导入前会自动留存一份当前数据快照）\n\n确定继续吗？</string>
+
+    <!-- 备份操作结果 -->
+    <string name="backup_export_success">导出成功：任务 %1$d 个、分类 %2$d 个、打卡 %3$d 条、积分流水 %4$d 条</string>
+    <string name="backup_export_failed">导出失败：%1$s</string>
+    <string name="backup_snapshot_success">已从最近导出恢复：任务 %1$d 个、分类 %2$d 个、打卡 %3$d 条、积分流水 %4$d 条</string>
+    <string name="backup_snapshot_failed">快速恢复失败：%1$s</string>
+    <string name="backup_import_success">恢复成功：任务 %1$d 个、分类 %2$d 个、打卡 %3$d 条、积分流水 %4$d 条</string>
+    <string name="backup_import_failed">导入失败：%1$s</string>
+
+    <!-- ===== 格式化 ===== -->
+    <string name="fmt_day_start_midnight">0 点（自然日）</string>
+    <string name="fmt_day_start_hour">凌晨 %1$d 点</string>
+    <string name="fmt_theme_system">跟随系统</string>
+    <string name="fmt_theme_light">浅色</string>
+    <string name="fmt_theme_dark">深色</string>
+
+    <!-- 任务周期类型 -->
+    <string name="fmt_period_daily">每日</string>
+    <string name="fmt_period_weekly">每周</string>
+    <string name="fmt_period_monthly">每月</string>
+    <string name="fmt_period_yearly">每年</string>
+    <string name="fmt_period_once">单次</string>
+    <string name="fmt_period_standing">常驻</string>
+
+    <string name="fmt_every_daily">每天</string>
+    <string name="fmt_every_weekly">每周</string>
+    <string name="fmt_every_monthly">每月</string>
+    <string name="fmt_every_yearly">每年</string>
+
+    <string name="fmt_period_today">今天</string>
+    <string name="fmt_period_this_week">本周</string>
+    <string name="fmt_period_this_month">本月</string>
+    <string name="fmt_period_this_year">本年</string>
+
+    <!-- 提醒级别 / 到点行为 -->
+    <string name="fmt_level_silent">静默</string>
+    <string name="fmt_level_notify">通知</string>
+    <string name="fmt_level_banner">横幅</string>
+    <string name="fmt_level_alarm">闹钟</string>
+    <string name="fmt_action_remind">提醒完成</string>
+    <string name="fmt_action_auto_complete">自动完成</string>
+
+    <!-- 统计范围 -->
+    <string name="fmt_range_day">日</string>
+    <string name="fmt_range_week">周</string>
+    <string name="fmt_range_month">月</string>
+    <string name="fmt_range_year">年</string>
+
+    <!-- 概览卡标题 -->
+    <string name="fmt_score_today">今日积分</string>
+    <string name="fmt_score_that_day">当日积分</string>
+    <string name="fmt_score_this_week">本周积分</string>
+    <string name="fmt_score_that_week">当周积分</string>
+    <string name="fmt_score_this_month">本月积分</string>
+    <string name="fmt_score_that_month">当月积分</string>
+    <string name="fmt_score_this_year">今年积分</string>
+    <string name="fmt_score_that_year">当年积分</string>
+
+    <!-- 趋势副标题 -->
+    <string name="fmt_trend_last_days">最近 7 天</string>
+    <string name="fmt_trend_last_weeks">最近 7 周</string>
+    <string name="fmt_trend_last_months">最近 7 个月</string>
+    <string name="fmt_trend_last_years">最近 7 年</string>
+    <string name="fmt_until">截至 %1$s</string>
+
+    <!-- 周期标签后缀 -->
+    <string name="fmt_suffix_today">（今天）</string>
+    <string name="fmt_suffix_yesterday">（昨天）</string>
+    <string name="fmt_suffix_this_week">（本周）</string>
+    <string name="fmt_suffix_this_month">（本月）</string>
+    <string name="fmt_suffix_this_year">（今年）</string>
+    <string name="fmt_week_with_year">%1$d年 %2$s</string>
+
+    <!-- 补卡日期 -->
+    <string name="fmt_yesterday">昨天</string>
+    <string name="fmt_two_days_ago">前天</string>
+</resources>
