@@ -6,16 +6,36 @@
   debug-shots/icon-assets/foreground-*.png   自适应图标前景（5 档分辨率，白色文字，透明底）
 """
 import os
+from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
-ROOT = r"C:/Users/Administrator/Documents/StatsApp"
+ROOT = str(Path(__file__).resolve().parents[1])  # 项目根目录（不写死本机路径）
 PREVIEW = os.path.join(ROOT, "debug-shots", "icon-preview")
 ASSETS = os.path.join(ROOT, "debug-shots", "icon-assets")
 os.makedirs(PREVIEW, exist_ok=True)
 os.makedirs(ASSETS, exist_ok=True)
 
-FONT_BOLD = "C:/Windows/Fonts/segoeuib.ttf"
-FONT_REG = "C:/Windows/Fonts/segoeui.ttf"
+
+def _first_existing(paths):
+    """按候选顺序返回第一个存在的字体文件（跨平台常见位置）"""
+    for p in paths:
+        if os.path.exists(p):
+            return p
+    return "arial.ttf"
+
+
+FONT_BOLD = _first_existing([
+    "C:/Windows/Fonts/segoeuib.ttf",
+    "C:/Windows/Fonts/arialbd.ttf",
+    "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+    "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+])
+FONT_REG = _first_existing([
+    "C:/Windows/Fonts/segoeui.ttf",
+    "C:/Windows/Fonts/arial.ttf",
+    "/System/Library/Fonts/Supplemental/Arial.ttf",
+    "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+])
 
 # 自适应图标：108dp 画布，中心 72dp 为可见区
 CANVAS = 432                    # 108dp @ xxxhdpi

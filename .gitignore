@@ -21,6 +21,8 @@ debug-shots/
 debug-utils/*.json
 debug-utils/*.xml
 debug-utils/catest*.txt
+# 一次性验证脚本（依赖上面的调试数据，跑不起来）
+debug-utils/verify_*.py
 
 # 临时文件
 *.tmp
